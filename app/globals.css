@@ -10,12 +10,12 @@
   --color-destructive-100: #f75353;
   --color-destructive-200: #c44141;
 
-  --color-primary-100: #dddfff;
-  --color-primary-200: #cac5fe;
+  --color-primary-100: #f78ee4;
+  --color-primary-200: #f78ee4;
 
-  --color-light-100: #d6e0ff;
-  --color-light-400: #6870a6;
-  --color-light-600: #4f557d;
+  --color-light-100: #d6e0e0;
+  --color-light-400: #ddd000;
+  --color-light-600: #5c1053;
   --color-light-800: #24273a;
 
   --color-dark-100: #020408;
@@ -295,7 +295,7 @@
 }
 
 @utility dark-gradient {
-  @apply bg-gradient-to-b from-[#1A1C20] to-[#08090D];
+  @apply bg-gradient-to-b from-[#40333ad7] to-[#08090D];
 }
 
 @utility border-gradient {
@@ -307,11 +307,14 @@
 }
 
 @utility blue-gradient-dark {
-  @apply bg-gradient-to-b from-[#171532] to-[#08090D];
+  @apply bg-gradient-to-b from-[#5f1154] to-[#08090D];
 }
 
 @utility blue-gradient {
-  @apply bg-gradient-to-l from-[#FFFFFF] to-[#CAC5FE];
+  @apply bg-gradient-to-l from-[#FFFFFF] to-[#3c395b];
+}
+@utility blue-gra {
+  @apply bg-gradient-to-l from-[#f78ee4] to-[#5c1053];
 }
 
 @utility flex-center {
